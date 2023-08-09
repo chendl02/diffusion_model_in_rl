@@ -62,7 +62,7 @@ format:
 
 - [Contrastive Energy Prediction for Exact Energy-Guided Diffusion Sampling in Offline Reinforcement Learning](https://arxiv.org/abs/2304.12824)
   - Cheng Lu, Huayu Chen, Jianfei Chen, Hang Su, Chongxuan Li, Jun Zhu
-  - Publisher:  ICML 2022 (long talk)
+  - Publisher:  ICML 2023 (long talk)
   - Key: Offline RL, Constrained Policy Optimization
   - Code: [official](https://github.com/ChenDRAG/CEP-energy-guided-diffusion)
   - ExpEnv: [MuJoco](https://github.com/openai/mujoco-py), [D4RL](https://github.com/rail-berkeley/d4rl)
