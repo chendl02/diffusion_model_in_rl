@@ -1,6 +1,6 @@
 # Diffusion Model in RL
 
-We follow the idea of [this](https://github.com/opendilab/awesome-diffusion-model-in-rl/tree/main).
+We follow the idea of [this repo](https://github.com/opendilab/awesome-diffusion-model-in-rl/tree/main).
 
 This is a collection of research papers for **Diffusion Model in RL**.
 And the repository will be continuously updated to track the frontier of Diffusion RL.
@@ -16,7 +16,8 @@ And the repository will be continuously updated to track the frontier of Diffusi
   - [ICRA 2023](#icra-2023)
   - [Neurips 2022](#neurips-2022)
   - [ICML 2022](#icml-2022)
-- [Contributing](#contributing)
+  - [Misc](#Misc)
+
 
 ## Papers
 
@@ -43,11 +44,6 @@ format:
   - Code: [official](https://github.com/scenediffuser/Scene-Diffuser)
   - ExpEnv: [ScanNet](http://www.scan-net.org/), [MultiDex](https://github.com/tengyu-liu/GenDexGrasp), [PROX](https://prox.is.tue.mpg.de/index.html)
 
-- [AdaptDiffuser: Diffusion Models as Adaptive Self-evolving Planners](https://arxiv.org/abs/2304.02532)
-  - Moritz Reuss, Maximilian Li, Xiaogang Jia, Rudolf Lioutikov
-  - Key: Planning, Generalizability
-  - ExpEnv: Maze2D, MuJoCo, KUKA Robot
-
 - [Goal-Conditioned Imitation Learning using Score-based Diffusion Policies](https://arxiv.org/abs/2302.01877)
   - Zhixuan Liang, Yao Mu, Mingyu Ding, Fei Ni, Masayoshi Tomizuka, Ping Luo
   - Key: Goal-Conditioned Imitation Learning, Robotics
@@ -72,6 +68,12 @@ format:
   - Publisher: ICML 2023 Workshop SODS
   - Key:  Reduced dimension, Discrete tasks
   - ExpEnv: [D4RL](https://github.com/rail-berkeley/d4rl)
+
+- ✅[AdaptDiffuser: Diffusion Models as Adaptive Self-evolving Planners](https://arxiv.org/abs/2304.02532)
+  - Moritz Reuss, Maximilian Li, Xiaogang Jia, Rudolf Lioutikov
+  - Publisher:  ICML 2023 (oral)
+  - Key: Planning, Generalizability
+  - ExpEnv: Maze2D, MuJoCo, KUKA Robot
 
 ### ICLR 2023
 
@@ -122,3 +124,10 @@ format:
   - ExpEnv: [MuJoco](https://github.com/openai/mujoco-py), [D4RL](https://github.com/rail-berkeley/d4rl)
 
 
+### Misc
+
+- [Structured Denoising Diffusion Models in Discrete State-Spaces](https://arxiv.org/abs/2208.06193)
+  - Zhendong Wang, Jonathan J Hunt, Mingyuan Zhou
+  - Publisher:  Neurips Deep RL Workshop 2022
+  - Key: Offline RL, Policy Optimization
+  - Code: [official](https://github.com/google-research/google-research/tree/master/d3pm)
