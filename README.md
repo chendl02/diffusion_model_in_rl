@@ -2,7 +2,7 @@
 
 We follow the idea of [this repo](https://github.com/opendilab/awesome-diffusion-model-in-rl/tree/main).
 
-This is a collection of research papers for **Diffusion Model in RL**.
+This is a collection of research papers for **Diffusion Model in Robot Learning**.
 And the repository will be continuously updated to track the frontier of Diffusion RL.
 
 
